@@ -1,0 +1,4 @@
+{
+  "extends": ["imhotep/config/.prettierrc"]
+
+}

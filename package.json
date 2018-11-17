@@ -1,0 +1,40 @@
+{
+  "name": "pixelass.github.io.source",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pixelass/pixelass.github.io.source#readme",
+  "bugs": {
+    "url": "https://github.com/pixelass/pixelass.github.io.source/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pixelass/pixelass.github.io.source.git"
+  },
+  "license": "MIT",
+  "author": "Gregor Adams <greg@pixelass.com>",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production imhotep build",
+    "dev": "imhotep dev --hot"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.9",
+    "@types/styled-components": "^4.1.0",
+    "ava": "^0.25.0",
+    "babel-plugin-styled-components": "^1.8.0",
+    "cross-env": "^5.2.0",
+    "imhotep": "^1.0.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.1",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.5.0",
+    "tslib": "^1.9.3"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions"
+  ]
+}
