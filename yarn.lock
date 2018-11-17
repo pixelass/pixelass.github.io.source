@@ -6886,6 +6886,11 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "~3.0.0"
 
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
+  integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
+
 lodash@4.17.4:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
@@ -9172,6 +9177,16 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-over-scroll@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/react-over-scroll/-/react-over-scroll-3.1.4.tgz#8cef92d2926ec440f01624abd29ae2c5f0588d91"
+  integrity sha512-twK0/Uk+E/Wyo8vDkg0M5LFlHHxNQgc//2BQnUOkj0xboLtM0LPQuOUbkSW3wZeWYXGVg6z90lMKXA1dZDLuUQ==
+  dependencies:
+    lodash.throttle "^4.1.1"
+    tslib "1.9.3"
+  optionalDependencies:
+    styled-components "^4.1.1"
 
 react-perf-devtool@^3.1.8:
   version "3.1.8"
